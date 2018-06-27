@@ -1,0 +1,70 @@
+/* Text Style */
+
+@font-face {
+	font-family: tbiSerif;
+	src: url(*%20fonts/BluuNext-Bold.otf);
+}
+
+/* @font-face {
+	font-family: tbiSerifitalic;
+	src: url(fonts/BluuNext-Bolditalic.otf);
+} */
+
+@font-face {
+	font-family: tbiSansSerif;
+	src: url(*%20Fonts/AktivGrotesk.ttf);
+}
+
+body{
+	color: #FFFFFF;
+	font-family: tbiSansSerif;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 900px){
+    body{
+    font-size: 1.6vw;
+    }
+
+    footer{
+    font-size: 1.6vw;
+    }
+}
+
+@media (min-width: 900px){
+    body{
+    font-size: 1.2vw;
+    }
+
+    footer{
+    font-size: 1.2vw;
+    }
+}
+
+i {
+    font-family: tbiSerifitalic;
+    letter-spacing: 0.5px;
+}
+
+a {
+	text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited, a:link {
+    display: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	font-family: tbiSerif;
+    text-transform: uppercase;
+	letter-spacing: 2px;
+}

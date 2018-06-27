@@ -1,4 +1,61 @@
 
+<!-- Footer -->
+  <footer><div class="footer-content">
+
+      <!-- Call-to-Action -->
+      <div class="footer-item spiel">
+
+      <h1>Join The Black Institute</h1>
+      <i>in shaping the intellectual discourse and public policy in America from a Black perspective, including all people of color in the United States and throughout the Diaspora...</i><br>
+
+      <div class="buttons">
+      <a href=""><div class="circle">Donate</div></a><a href=""><div class="circle">Contact Us</div></a>
+      </div>
+          
+      </div>
+
+      <!-- Navigation -->
+      <div class="footer-item navigation">
+
+      <div class="links">
+          <a href=""><div>About Our Organization</div></a>
+          <a href=""><div>We Were There</div></a>
+          <a href=""><div>In The Press</div></a>
+          <a href=""><div>Get Involved</div></a>
+      </div>
+
+      <div class="footer-content">
+
+          <div class="footer-item details">
+          39 Broadway Avenue<br>
+          17th Floor, Suite 1740<br>
+          New York, NY 10006
+          </div>
+
+          <div class="footer-item details">
+          Phone (212) 871-6899 <br>
+          Fax (917) 591-5281 <br>
+          info@theblackinstitute.com
+          </div>
+
+      </div>
+
+      </div>
+
+  </div></footer>
+
+<!-- Acknowledgement -->
+<footer>
+
+<div class="footer-content">
+  <div class="acknowledgement"></div>
+  <!-- <div class="acknowledgement"><b>Developed by the Computer Society of Ateneo.</b></div> -->
+  <div class="acknowledgement"><b>Developed by the ___.</b></div>
+</div>
+
+</footer>
+
+
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/jquery.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/jquery-migrate.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/remodal.js"></script>
