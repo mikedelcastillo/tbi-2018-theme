@@ -76,18 +76,21 @@
 }
 
 .mobile-nav-content .image-links .knowledge {
+	/* TODO:  */
 	background: url(images/Knowledge-Before.png);
 	background-position: 0px -60px;
 	background-size: 100%;
 }
 
 .mobile-nav-content .image-links .community {
+	/* TODO:  */
 	background: url(images/Community-Before.png);
 	background-position: 0px -40px;
 	background-size: 100%;
 }
 
 .mobile-nav-content .image-links .leadership {
+	/* TODO:  */
 	background: url(images/Leadership-Before.png);
 	background-position: 0px -60px;
 	background-size: 100%;
