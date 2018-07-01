@@ -9,19 +9,26 @@
       <i>in shaping the intellectual discourse and public policy in America from a Black perspective, including all people of color in the United States and throughout the Diaspora...</i><br>
 
       <div class="buttons">
-      <a href=""><div class="circle">Donate</div></a><a href=""><div class="circle">Contact Us</div></a>
+        <?php
+          $links = get_nav_menu_items_by_slug('top');
+          foreach ($links as $link) {
+              ?><a href="<?php echo $link->url; ?>"><div class="circle"><?php echo $link->title; ?></div></a><?php
+          }
+        ?>
       </div>
-          
+
       </div>
 
       <!-- Navigation -->
       <div class="footer-item navigation">
 
       <div class="links">
-          <a href=""><div>About Our Organization</div></a>
-          <a href=""><div>We Were There</div></a>
-          <a href=""><div>In The Press</div></a>
-          <a href=""><div>Get Involved</div></a>
+          <?php
+            $links = get_nav_menu_items_by_slug('navigation');
+            foreach ($links as $link) {
+                ?> <li><a href="<?php echo $link->url; ?>"><?php echo $link->title; ?></a></li><?php
+            }
+          ?>
       </div>
 
       <div class="footer-content">
@@ -58,10 +65,10 @@
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/jquery.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/jquery-migrate.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/remodal.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/slick.js"></script>
+<!-- <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/remodal.js"></script> -->
+<!-- <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/slick.js"></script> -->
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/script.js"></script>
+<!-- <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/script.js"></script> -->
 
 <?php
 

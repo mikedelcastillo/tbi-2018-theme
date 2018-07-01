@@ -1,0 +1,303 @@
+/* Landing Content */
+
+.landing-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4vw;
+
+    justify-content: space-around;
+    line-height: 1.5;
+    height: 60vh;
+}
+
+.about-details {
+    width: 50vw;
+    text-align: justify;
+	}
+
+.about-details h1{
+    font-size: 2vw;
+}
+
+.about-img{
+    width: 35vw;
+
+}
+
+.about-img img {
+    align-self: center;
+	width: 100%;
+    padding: 1vh;
+}
+
+/* Who We Are */
+
+.about {
+	background-color: #D60000;
+	color: white;
+}
+
+.about .container {
+	width: 80vw;
+	margin: auto;
+}
+
+.about .content {
+	padding: 5vw 0;
+}
+
+
+/* Board of Directors*/
+
+.board {
+    padding: 5 0;
+	text-align: center;
+	font-family: 'tbiSerif';
+
+    font-size: 2vw;
+}
+
+.board ul {
+	padding: 0;
+	margin: 0;
+	font-size: 1.5vw;
+    line-height: 2;
+}
+
+.board li {
+	display:inline-block;
+}
+
+.board ul li:nth-child(even):before {
+  content: '\25CF';
+  margin: 0 0.5em;
+}
+
+.board ul li:nth-child(odd):before {
+  content: '\25CF';
+  margin: 0 0.5em;
+}
+
+.board ul li:nth-child(1):before{
+    content: '';
+    margin: 0;
+	}
+
+
+/* Members */
+
+.members-profiles {
+	margin-top: 50px;
+}
+
+.members-profiles a {
+	color: white;
+}
+
+.members-profiles h1.title{
+	font-size: 18px;
+}
+
+.members-profiles .member {
+	width: 100%;
+	margin: 30px 0;
+}
+
+.members-profiles .display img {
+	width: 100%;
+}
+
+.members-profiles .display .member-name {
+	width: 100%;
+	margin: 10px 0 5px 0;
+}
+
+.members-profiles .display .member-position {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.members-profiles .display .member-contact {
+	width: 100%;
+	font-style: italic;
+	font-weight: 400;
+	margin: 0;
+}
+
+@media screen and (min-width: 376px) {
+
+	.members-profiles .member {
+		width: 40%;
+		display: inline-block;
+	}
+
+	.members-profiles .member:nth-child(odd) {
+		margin-right: 19%;
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.members-profiles .member {
+		width: 27%;
+		display: inline-block;
+	}
+
+	.members-profiles .member:nth-child(odd) {
+		margin-right: 0%;
+	}
+
+	.members-profiles .member:not(:nth-child(3n)) {
+		margin-right: 8%;
+	}
+}
+
+@media screen and (min-width: 1440px){
+
+	.members-profiles .member {
+		width: 20vw;
+		display: inline-block;
+	}
+
+	.members-profiles .member:not(:nth-child(3n)) {
+		margin-right: 19%;
+	}
+}
+
+
+/* Career Opportunities */
+
+.careers {
+	background-color: #00C10E;
+	color: white;
+    line-height: 1.25
+}
+
+.careers .container {
+	width: 80vw;
+	margin: auto;
+}
+
+.careers .content {
+	padding: 50px 0;
+}
+
+.careers h1.title {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.careers .job {
+	margin: 50px 0;
+}
+
+.careers .job h3{
+	font-size: 21px;
+	margin-top: 0;
+}
+
+.careers .job p{
+	margin: 0;
+    text-align: justify;
+}
+
+.careers .job-submit {
+	text-align: center;
+	margin: 0px 0;
+    padding-top: 5vh;
+}
+
+.careers .btn-submit {
+	width: 10vw;
+	height: 10vw;
+
+	font-size: 1.7vw;
+	font-family: 'tbiSerif';
+
+	color: white;
+	background: transparent;
+
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.careers .job {
+		display: flex;
+	}
+
+	.careers .job-description {
+		width: 70vw;
+		display: inline-block;
+	}
+
+	.careers .job-submit {
+		width: 30vw;
+		display: inline-block;
+		align-self: center;
+	}
+
+	.careers .btn-submit {
+		width: 20wv;
+		height: 20wv;
+	}
+}
+
+
+/* Modal */
+
+.modal-wrapper {
+    text-align: justify;
+    margin: 50px;
+	text-align: left;
+	font-family: 'tbiSansSerif';
+	letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.modal-image {
+	width: 100%;
+}
+
+.modal-content .title {
+	font-size: 26px;
+	font-family: 'tbiSansSerif'
+}
+
+@media screen and (min-width: 769px){
+
+	.modal-wrapper {
+		display: flex;
+	}
+
+	.modal-image {
+		width: 39%;
+		display: inline-block;
+
+	}
+
+	.modal-image img {
+		width: 90%;
+
+	}
+
+	.modal-content {
+		display: inline-block;
+		width: 60%;
+		width: 100%;
+	}
+
+	.modal-content .subtitle {
+		font-size: 16px;
+		font-style: italic;
+	}
+
+	.modal-content .title {
+		font-size: 26px;
+		font-family: 'tbiSansSerif'
+	}
+
+}

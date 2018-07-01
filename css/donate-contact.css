@@ -1,0 +1,114 @@
+.landing-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5vw;
+
+    line-height: 1.5;
+    height: 60vh;
+    margin: 0 1vw;
+}
+
+/* Contact */
+
+.contact {
+    font-size: 20px;
+    width: 100vw;
+}
+
+.contact form label {
+	display: block;
+	margin: 0px 10px 10px 10px;
+}
+
+.contact form input,
+.contact form textarea {
+    display: block;
+	width: 70%;
+	height: 26px;
+	margin: auto;
+	margin-top: 0px;
+
+	background-color: transparent;
+	color: white !important;
+	border: none;
+	border-bottom: 1px solid white;
+	padding: 10px 0;
+	font-family: 'tbiSansSerif';
+
+}
+
+.contact form textarea {
+    margin-top: 50px;
+    height: 100px;
+}
+
+.email {
+    display: block;
+	width: 66.5% !important;
+    margin-right: 5px important;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px;
+
+    color: #151515;
+    background-color: transparent;
+    font-weight: bold;
+
+    border: none;
+    border: 1px solid #151515;
+    border-radius: 3px;
+}
+
+.btn-submit {
+	float: right;
+}
+
+
+
+/* Donate */
+
+.donate {
+    display: flex;
+    color: white;
+}
+
+.donate-desc {
+    justify-content: center;
+    align-content: center;
+    float: left;
+    display: inline-block;
+    font-size: 90%;
+    line-height: 2;
+    width: 45vw;
+}
+
+.donate-amount {
+    display: inline-block;
+    align-self: center;
+    width: 43vw;
+    margin-left: 5vw;
+}
+
+.donate-buttons {
+    align-self: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.donate-amount .btn-donate {
+	margin: 5px;
+	padding: 10px;
+	font-weight: bold;
+    width: 10vw;
+
+	background: white;
+	color: #151515;
+}
+
+.btn-paypal {
+	margin-top: 20px;
+	text-align: right;
+}

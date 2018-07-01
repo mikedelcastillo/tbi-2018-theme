@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: tbiSerif;
-	src: url(*%20fonts/BluuNext-Bold.otf);
+	src: url(fonts/BluuNext-Bold.otf);
 }
 
 /* @font-face {
@@ -12,7 +12,7 @@
 
 @font-face {
 	font-family: tbiSansSerif;
-	src: url(*%20Fonts/AktivGrotesk.ttf);
+	src: url(fonts/AktivGrotesk.ttf);
 }
 
 body{
