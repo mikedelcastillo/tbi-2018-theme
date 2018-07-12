@@ -1,5 +1,5 @@
 <?php get_header() ?>
-
+<?php var_dump(getenv('EXISTS')); ?>
 <section class="index landing">
   <div class="container">
     <div class="content">

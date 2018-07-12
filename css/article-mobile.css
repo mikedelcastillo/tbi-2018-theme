@@ -1,0 +1,154 @@
+.top-header .mobile-nav {
+	margin-left: 425px;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	transition: 0.3s;
+}
+
+.mobile-nav-content {
+	display: inline-block;
+	height: 100%;
+	width: 85%;
+	background-color: white;
+	float: right;
+}
+
+.mobile-nav-sidebar {
+	display: inline-block;
+	width: 15%;
+	height: 100%;
+	position: fixed;
+	background-color: #151515;
+}
+
+.mobile-nav-sidebar .logo {
+	width: 50%;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.mobile-nav-sidebar img {
+	width: 100%;
+	display: block;
+}
+
+.mobile-nav-content .header {
+	/*background-color: black;*/
+	color: #6102A1;
+	height: 20%;
+	padding: 0 10%;
+
+	display: flex;
+	align-items: center;
+}
+
+.mobile-nav-content .header h1 {
+	display: inline-block;
+	margin: 0;
+	font-size: 21px;
+}
+
+.mobile-nav-content .header a {
+	float: right;
+	margin: 0;
+	margin-left: auto;
+
+	color: #6102A1;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.mobile-nav-content .image-links {
+	height: 220px%;
+	display: flex;
+	flex-direction: column;
+}
+
+.mobile-nav-content .image-links div {
+	height: 55px;
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	padding: 0 30px;
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 21px;
+}
+
+.mobile-nav-content .image-links div:last-child {
+	color: #6102A1;
+}
+
+.mobile-nav-content .image-links .knowledge {
+	background: url(images/Knowledge-Before.png);
+	background-position: 0px -60px;
+	background-size: 100%;
+}
+
+.mobile-nav-content .image-links .community {
+	background: url(images/Community-Before.png);
+	background-position: 0px -40px;
+	background-size: 100%;
+}
+
+.mobile-nav-content .image-links .leadership {
+	background: url(images/Leadership-Before.png);
+	background-position: 0px -60px;
+	background-size: 100%;
+}
+
+.mobile-nav-content .image-links .about {
+	color: #151515;
+	text-transform: none;
+}
+
+.mobile-nav-content .footer {
+	height: 100px;
+	padding-right: 30px;
+	color: #6102A1;;
+	text-align: right;
+
+}
+
+.mobile-nav-content .footer .links {
+	display: inline-block;
+	height: 100px;
+	width: 100%;
+	margin: 40px 10px;
+
+	font-family: 'tbiSerif';
+	font-size: 18px;
+}
+
+.mobile-nav-content .footer .links .circle {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	margin-right: 10px;
+
+	border: 1px solid #6102A1;
+	border-radius: 50%;
+	text-align: center;
+	color: #6102A1;
+
+	line-height: 100px;
+}
+
+.mobile-nav-content .footer .info {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+@media screen and (min-width: 650px) {
+
+}

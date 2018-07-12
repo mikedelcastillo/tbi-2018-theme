@@ -1,3 +1,4 @@
+<?php /* Template Name: About */ ?>
 <?php get_header() ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/about.css"/>
 

@@ -1,0 +1,68 @@
+
+
+/* We Were There */
+
+.wewerethere-content {
+    width: 45vw;
+    margin-bottom: 5vh;
+}
+
+.wewerethere-content .details {
+    font-size: 12.5px;
+    line-height: 2;
+    width: 30vw;
+    text-align: justify;
+}
+
+.wewerethere-content i {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.wewerethere-content img {
+    width: 110%;
+}
+
+
+/* Get Involved */
+
+.event {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.careers {
+    background-color: transparent !important;
+    margin: 0 10vw;
+}
+
+.careers h1 {
+    font-size: 100%;
+}
+
+.careers .content {
+    padding: 0 !important;
+    margin: 0;
+}
+
+.getinvolve-content {
+    width: 50vw;
+}
+
+.getinvolve-content .details {
+    font-size: 12.5px;
+    line-height: 2;
+}
+
+.getinvolve-content i {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.getinvolve-content img {
+    width: 50vw;
+}
+
+.getinvolve-content .title {
+    margin: 0;
+}

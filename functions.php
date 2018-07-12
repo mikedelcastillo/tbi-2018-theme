@@ -26,6 +26,9 @@ remove_action( 'wp_print_styles', 'print_emoji_styles' );
 remove_action( 'admin_print_styles', 'print_emoji_styles' );
 
 add_action('after_setup_theme', function(){
+  // add_theme_support('post-formats', array('link'));
+  add_theme_support('post-thumbnails');
+
   register_nav_menus(array(
 		'top' => __('Top Menu', 'theme'),
 		'social' => __('Social Links Menu', 'theme'),

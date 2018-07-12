@@ -1,0 +1,222 @@
+/* General */
+
+a {
+    color: #151515 !important;
+}
+
+h1 {
+
+}
+
+.header {
+    padding: 5vw 10vw 0 10vw;
+}
+
+.landing {
+	background-color: white;
+    color: #151515 !important;
+}
+
+.landing-content {
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    height: 60vh;
+	}
+
+.landing-content .section-links {
+	font-family: tbiSerif;
+}
+
+.landing-content .section-links ul {
+    font-size: 1.7vw;
+    width: 20vw;
+}
+
+.landing-content .section-links li{
+    padding: 0 0 3vw 0;
+}
+
+.landing-content .section-details{
+    font-size: 1.7vw;
+    padding: 0 0 0 4vw;
+}
+
+.section {
+    margin: 0 5vw;
+}
+
+.section .article {
+    margin: 0;
+}
+
+.section .article .knowledge{
+    background: #FCEF03;
+    color: black;
+}
+
+.section .article .knowledge .btn-read{
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+.section .article .leadership{
+    background: #D60000;
+}
+
+.section .article .community{
+    background: #00C10E;
+}
+
+.article .container {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 10px !important;
+}
+
+.article {
+	background-color: #565656;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.article .container {
+	margin: 0 10vw;
+	padding: 50px 0;
+}
+
+.article h1,
+.article h2 {
+	font-family: 'tbiSansSerif';
+	width: 40vw;
+}
+
+.article h1 {
+	font-size: 26px;
+}
+
+.btn-read {
+	height: 12vw;
+	width: 12vw;
+
+	font-family: 'tbiSerif';
+	font-size: 2vw;
+
+	border: 1px solid white;
+	border-radius: 50%;
+
+	background: transparent;
+	color: white;
+    margin: 2vh;
+}
+
+.top-footer .newsletter input:first-child {
+	color: #151515 !important;
+	border-bottom: 1px solid #151515 !important;
+}
+
+.top-footer .newsletter input:last-child {
+	color: #151515 !important;
+	border: 1px solid #151515;
+    letter-spacing: 1px;
+}
+
+.top-footer .newsletter input::-webkit-input-placeholder{
+    color: #151515 !important;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* Leadership */
+
+.leadership-img {
+    width: 45%;
+    padding-right: 2%;
+}
+
+.leadership-img img {
+    width: 90%;
+}
+
+.leadership-content {
+    width: 60%;
+}
+
+.leadership-content .title {
+    margin: 0;
+}
+
+.leadership-content .details {
+    font-size: 12.5px;
+    line-height: 2;
+}
+
+
+
+/* Community */
+
+.community-img {
+	padding-top: 50px;
+}
+
+.community-content {
+	width: 80vw;
+}
+
+.community-content .source {
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.community-content .details {
+	margin: 20px 0;
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.community-content .image img {
+	width: 100%;
+}
+
+
+
+/* Knowledge */
+
+.knowledge {
+    background-color: yellow;
+}
+
+.know-book-img {
+    width: 40vw;
+}
+
+.know-book-img img {
+    padding-left: 1vw;
+    width: 20vw;
+}
+
+.know-book-content{
+    width: 50vw;
+}
+
+.know-paper-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+}
+
+.know-paper-image .img {
+    width: 15vw;
+}
+
+.know-paper-content .btn-read {
+    font-size: 15px;
+    height: 50px;
+}
